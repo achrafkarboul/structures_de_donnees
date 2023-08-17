@@ -58,23 +58,29 @@ void supprimer_tete(Liste** liste) {
 // role : supprimer le dernier élement de la liste
 // ------------------------------------------------------------------------------------------------
 void supprimer_queux(Liste** liste) {
-  Liste* temp = *liste;
-  while((temp->suivant)->suivant != NULL) {
-    temp = temp->suivant;
-  }
-  free(temp->suivant->suivant);
-  temp->suivant = NULL;
+    Liste* temp = *liste;
+    while((temp->suivant)->suivant != NULL) {
+        temp = temp->suivant;
+    }
+    free(temp->suivant->suivant);
+    temp->suivant = NULL;
 }
-
-void afficher(Liste* liste) {
+// ------------------------------------------------------------------------------------------------
+// Fonction : afficher_liste
+// role : afficher tout les élements de la liste
+// ------------------------------------------------------------------------------------------------
+void afficher_liste(Liste* liste) {
   if (!liste) {
     puts("");
     return;
   }
   printf(" %d", liste->nombre);
-  afficher(liste->suivant);
+  afficher_liste(liste->suivant);
 }
-
+// ------------------------------------------------------------------------------------------------
+// Fonction : nombreElement
+// role : afficher le nombre d'element de la liste
+// ------------------------------------------------------------------------------------------------
 int nombreElement(Liste* liste) {
   if (liste == NULL)
     return 0;
@@ -87,10 +93,10 @@ int main(void) {
   ajout_tete(&liste, 1);
   ajout_tete(&liste, 0);
   ajout_queux(&liste, 3);
-  afficher(liste);
+  afficher_liste(liste);
   supprimer_tete(&liste);
   supprimer_queux(&liste);
-  afficher(liste);
+  afficher_liste(liste);
   printf("Le nombre d'element est %d", nombreElement(liste));
   return 0;
 }
