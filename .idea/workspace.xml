@@ -9,15 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d9b3f5d1-afcf-4cfb-b0ed-f6e7c66d8273" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/structure de données.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liste.c" beforeDir="false" afterPath="$PROJECT_DIR$/Liste.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Liste.exe" beforeDir="false" />
-    </list>
+    <list default="true" id="d9b3f5d1-afcf-4cfb-b0ed-f6e7c66d8273" name="Changes" comment="done" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,12 +69,33 @@
       <option name="presentableId" value="Default" />
       <updated>1692258983388</updated>
       <workItem from="1692258985460" duration="146000" />
-      <workItem from="1692259160686" duration="308000" />
+      <workItem from="1692259160686" duration="664000" />
     </task>
+    <task id="LOCAL-00001" summary="done">
+      <option name="closed" value="true" />
+      <created>1692259578686</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692259578686</updated>
+    </task>
+    <task id="LOCAL-00002" summary="done">
+      <option name="closed" value="true" />
+      <created>1692259678426</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692259678426</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="done" />
+    <option name="LAST_COMMIT_MESSAGE" value="done" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
